@@ -1,7 +1,29 @@
 aid: plum
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plum.png
 name: Plum
-description: Plum is a company surfaced as a portfolio company of 500-global, partech and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Plum is a UK-based personal finance "money app" that helps consumers save and
+  invest automatically. Its mobile app pairs automated savings algorithms (eight
+  saving automations) with a range of regulated products including Easy Access
+  Savings, a Cash ISA, a 95-day Notice Account, a money-market Interest pocket,
+  a Stocks & Shares ISA, a Self-Invested Personal Pension (SIPP), and access to
+  thousands of stocks and funds. Plum operates under FCA oversight through
+  multiple entities covering payment services, e-money, investment broking, and
+  account information services, and monetizes via subscription tiers (Basic,
+  Plus, Boost, Max). It is a consumer-facing product with no public developer
+  API; this profile was surfaced as a portfolio company of 500 Global and
+  Partech and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/plum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Personal Finance
+- Savings
+- Investing
+- Wealth Management
+- Consumer
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://withplum.com
+- type: Blog
+  url: https://blog.withplum.com
+- type: Support
+  url: https://help.withplum.com/en/
+- type: Pricing
+  url: https://withplum.com/subscriptions
+- type: TermsOfService
+  url: https://withplum.com/legal/terms
+- type: PrivacyPolicy
+  url: https://withplum.com/legal/privacy
+- type: WellKnown
+  url: well-known/plum-well-known.yml
+- type: DomainSecurity
+  url: security/plum-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

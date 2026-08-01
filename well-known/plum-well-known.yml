@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/* on withplum.com
+host: https://withplum.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /llms.txt
+  status: 404
+notes: >-
+  Plum (withplum.com) is a consumer fintech mobile app with no public developer
+  platform. No /.well-known/ discovery documents, OIDC/OAuth metadata, API
+  catalog, or llms.txt were served (all 404). developer.withplum.com and
+  docs.withplum.com do not resolve (NXDOMAIN). Recorded absence is valid data.
